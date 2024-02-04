@@ -18,7 +18,7 @@ export default function TOPCOMPONENT(){
         <div className="topcompdiv ">
             <span className="text-gray-300">Hii  {" "}
                 {user.name?user.name:"no-name"}</span>
-            <p className="text-gray-500 text-sm"> let's check your today's tasks</p>
+            <p className="text-gray-500 text-sm"> lets check your todays tasks</p>
         </div>
         </div>
         </>
