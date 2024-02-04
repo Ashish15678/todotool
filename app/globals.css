@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{background-color: black;}
+
+.topcompptag{
+  text-shadow: rgba(3,235,65,0.67) 0px 0px 74px;
+  color: rgb(121, 206, 121);
+  font-size: 2.0rem;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  background-color:rgb(19, 18, 18) ;
+  padding: 10px;
+  display: absolute;
+}
+
+.parentmainsection{
+  display: block;
+  margin-top: 45px;
+
+
+}
+
+.leftmainsection{
+color:rgb(192, 178, 178);
+
+
+}
+
+.rightmainsection{
+bottom: 100%;
+background-color: red;
+
+}
+
+.childleftmainsection{
+  right:20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboardmaindiv{
+  margin-left: 20%;
+  margin-top: 80px;
+top:0;
+  position: absolute;
+
+}
+
+.dashboardmaintwodiv div{
+  background-color: rgb(19, 18, 18);
+}
+
+.dashboardmaintwodiv div progress{
+  margin-top: 2rem;
+  height: 0.5rem;
+  width:10rem;
+  background-color: rgb(161, 231, 161);
+  border-radius: 25px;
+}
+
+
+
+.dashboardmaintwodiv{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.topcompdiv{
+  text-shadow: rgba(0,0,0,0.67) 0px 0px 74px;
+  position: absolute;
+  font-size: 1.25rem;
+  margin-top: 10px;
+  top:0;
+  margin-left: 300px;
+}
+
+.linkleftcomp{
+  display:relative;
+}
