@@ -19,3 +19,11 @@ model User{
   ip String
 }
 
+model newTable{
+   id      Int      @id @default(autoincrement())
+  email   String?   @unique
+  name    String?
+  tasks   String[]
+  token   String
+  ip String
+}

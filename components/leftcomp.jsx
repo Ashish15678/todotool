@@ -1,11 +1,8 @@
 "use client"
 import LEFTCOMPONENT from "./LEFTCOMPONENT";
 export default function LEFTCOMP(){
-    const WIDTH =  window.innerWidth;
-    const HEIGHT =window.innerHeight;
 
-   
-    if( WIDTH >= 400){
+
           
         return(
           <>
@@ -22,15 +19,7 @@ export default function LEFTCOMP(){
             </section>
           </main>
           </>
-        )}
-        else{
-          
-          return(
-            <>
-            phone
-            </>
-          )
-        }
+        )
     
 
 

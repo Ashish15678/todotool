@@ -1,8 +1,8 @@
-import { GETINFO } from "@/app/api/checktoken/route"
+// import { GETINFO } from "@/app/api/checktoken/route"
 import MainPageComp from "@/components/mainpagetasktodaycomponent"
 
-const user = await GETINFO()
-console.log(user.name);
+// const user = await GETINFO()
+// console.log(user.name);
 
 export default function Page(){
     return(
@@ -17,6 +17,7 @@ export default function Page(){
                 <p className="text-gray-300 text-2xl mt-4 ml-4 p-8 text-bolder ">Today board : </p>  
       
                 <div className=" ">
+                
                     <button className="absolute z-1 rounded-3xl text-bolder text-gray-100 bg-green-600 p-2 text-2xl">Create new Task</button>
                 </div>
 
